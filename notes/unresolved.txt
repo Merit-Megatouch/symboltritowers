@@ -3,12 +3,8 @@
 # (usually in src/host/loader_services.cpp) before the game will start.
 # symbol | needed by
 TextSystem::DisplayOnBitmap(NBitmap&, char const*, CoordT<int> const*, CoordT<int> const*, bool, bool) | symboltritowers.so
-TextSystem::SetTextDescription(TextDesc const&) | symboltritowers.so
 USBIO::USBConfirmKeyID(unsigned char) | symboltritowers.so
 USBIO::FoundUSB() | symboltritowers.so
 USBIO::Instance() | symboltritowers.so
-Colour::black | symboltritowers.so
-Colour::white | symboltritowers.so
 NBitmap::WrapAllegroBitmap(BITMAP*) | symboltritowers.so
 NBitmap::~NBitmap() | symboltritowers.so
-TextDesc::SetFontName(char const*) | symboltritowers.so
