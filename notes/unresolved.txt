@@ -1,0 +1,68 @@
+# Symbols no library, runtime or megatouch-host provides (2026-10-07)
+# megatouch-host loads the game with RTLD_NOW, so each of these must be defined
+# (usually in src/host/loader_services.cpp) before the game will start.
+# symbol | needed by
+CardG | symboltritowers.so
+DLLReady | symboltritowers.so
+ISRDone | symboltritowers.so
+LinkFanTimeSetting | symboltritowers.so
+LinkShowDeckSetting | symboltritowers.so
+LocalGameOverFlag | symboltritowers.so
+NetGlob | symboltritowers.so
+RankFunc | symboltritowers.so
+Card_PollLinks() | symboltritowers.so
+DisplayDefeated(int, int) | symboltritowers.so
+ScreenIsTouched() | symboltritowers.so
+Card_ActiveDelay(int) | symboltritowers.so
+Card_ProcessInfo() | symboltritowers.so
+Card_LinkWaitForAll(unsigned long) | symboltritowers.so
+Card_ParseGameOverFlag() | symboltritowers.so
+GetMyId() | symboltritowers.so
+Delay_PE(unsigned long) | symboltritowers.so
+PlayWave(char*, unsigned short, int, int, int, bool) | symboltritowers.so
+GetMaster() | symboltritowers.so
+NetGlobals::GetLeaderScore() | symboltritowers.so
+NetGlobals::GetRank(unsigned char) | symboltritowers.so
+TextSystem::DisplayOnBitmap(NBitmap&, char const*, CoordT<int> const*, CoordT<int> const*, bool, bool) | symboltritowers.so
+TextSystem::SetTextDescription(TextDesc const&) | symboltritowers.so
+VideoClass::ShowPCX(char const*, short, short, unsigned char) | symboltritowers.so
+xml_gamerandom::GameSettingsHighRun_record::AdjustTime(int, long) | symboltritowers.so
+xml_gamerandom::GameSettingsHighRun_record::copy(abstract_record const*) | symboltritowers.so
+xml_gamerandom::GameSettingsHighRun_record::GameSettingsHighRun_record() | symboltritowers.so
+xml_gamerandom::GameSettingsHighRun_record::~GameSettingsHighRun_record() | symboltritowers.so
+abstract_xml_record::AdjustTimeFields(int, long) | symboltritowers.so
+abstract_xml_record::AddChild(abstract_xml_record*, char const*, unsigned int) | symboltritowers.so
+abstract_xml_record::NewChild(char*) | symboltritowers.so
+USBIO::USBConfirmKeyID(unsigned char) | symboltritowers.so
+USBIO::FoundUSB() | symboltritowers.so
+USBIO::Instance() | symboltritowers.so
+Bitmap::ConvertSmack(unsigned char) | symboltritowers.so
+Bitmap::CopyFromScreen(int, int, bool) | symboltritowers.so
+Bitmap::CreateSmackTextBox(char const*, FontBase*, signed char, unsigned short, unsigned short, bool) | symboltritowers.so
+Bitmap::CreateColoredTextBoxTTF(char const*, int, int, int, int, int, int, int, int, int, bool, char*, int) | symboltritowers.so
+Bitmap::CreateColoredTextBoxTTFS(char const*, int, int, int, int, int, int, int, int, int, bool, char*, int) | symboltritowers.so
+Bitmap::LoadSmack(char*, unsigned char, unsigned char) | symboltritowers.so
+Colour::black | symboltritowers.so
+Colour::white | symboltritowers.so
+NBitmap::WrapAllegroBitmap(BITMAP*) | symboltritowers.so
+NBitmap::~NBitmap() | symboltritowers.so
+Settings::Init() | symboltritowers.so
+Settings::Load() | symboltritowers.so
+Settings::Cleanup() | symboltritowers.so
+Settings::Restore(abstract_xml_record const*) | symboltritowers.so
+Settings::Settings(char const*, unsigned int) | symboltritowers.so
+Settings::~Settings() | symboltritowers.so
+TextDesc::SetFontName(char const*) | symboltritowers.so
+TextUtils::ConvertToMarkup(char const*) | symboltritowers.so
+xml_gamerandom::GameSettingsHighRun_record::cTag() const | symboltritowers.so
+xml_gamerandom::GameSettingsHighRun_record::eTag() const | symboltritowers.so
+xml_gamerandom::GameSettingsHighRun_record::clone() const | symboltritowers.so
+xml_gamerandom::GameSettingsHighRun_record::equal(abstract_record const*) const | symboltritowers.so
+xml_gamerandom::GameSettingsHighRun_record::Metadata() const | symboltritowers.so
+xml_gamerandom::GameSettingsHighRun_record::not_equal(abstract_record const*) const | symboltritowers.so
+abstract_xml_record::ChildCount() const | symboltritowers.so
+abstract_xml_record::GetChildren() const | symboltritowers.so
+abstract_xml_record::ChildName(int) const | symboltritowers.so
+Settings::Key(unsigned int, bool) const | symboltritowers.so
+typeinfo for Settings | symboltritowers.so
+typeinfo for xml_gamerandom::GameSettingsHighRun_record | symboltritowers.so
